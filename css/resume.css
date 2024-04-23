@@ -70,7 +70,7 @@
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1 !important;
-    background-color: var(--bs-body-bg) !important;
+    background-color: var(--bs-bg-color) !important;
 }
 
 .navbar-toggler-icon {
@@ -99,7 +99,7 @@
 }
 
 body {
-    background-color: var(--bs-body-bg);
+    background-color: var(--bs-bg-color);
     color: #bbb;
     display: block;
     font-size: 1.1rem;

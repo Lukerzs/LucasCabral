@@ -82,10 +82,12 @@
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1 !important;
-    background-color: var(--bs-body-bg) !important;
+    background-color: var(--bs-bg-color) !important;
 }
 
 .navbar-toggler-icon {
+    display: block;
+    justify-content: center;
     color: color-mix(in srgb, #bbb, #000 25%);
 }
 
@@ -116,6 +118,7 @@
 }
 
 img {
+    display: flex;
     vertical-align: middle;
     box-shadow:#032830;
 }
@@ -186,7 +189,14 @@ h1.title {
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
-
+p{
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .footer {
     padding: 27px 0;
     color: #999;
