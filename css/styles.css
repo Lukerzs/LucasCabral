@@ -15,12 +15,15 @@
     --bs-body-color: #dee2e6;
     --Lkz-subtext-color: color-mix(in srgb, var(--bs-body-color), #000 50%);
     --lkz-heading-color: color-mix(in srgb, var(--bs-body-color), #000 25%);
+    display: flex;
+    justify-content: space-evenly;
 }
 
 [data-bs-theme=dark] {
     color-scheme: dark;
     --bs-body-color: rgb(32, 31, 31);
-    ;
+    --lightBlue:#00f0ff;
+    --darkBlue:#040a2c;
     --bs-body-color-rgb: 32, 31, 31;
     --bs-body-bg: rgb(32, 31, 31);
     --bs-body-bg-rgb: 33, 37, 41;
@@ -212,11 +215,18 @@ p{
     text-align: center;
 }
 
-.final_citation>p {
+.final_citation{
     display: flex;
-    color: white;
+    color: #00f0ff;
     text-align: center;
-    text-shadow: rgb(111, 206, 243) 0.1em 0.1em 0.2em;
+    text-shadow:  0 0 7px #00f0ff,
+    0 0 10px #00f0ff,
+    0 0 21px #00f0ff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;;
 }
 
 a {
