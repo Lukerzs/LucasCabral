@@ -11,12 +11,12 @@
 }
 
 :root {
+    display: flex;
+    justify-content: center;
     --bs-bg-color: #141414;
     --bs-body-color: #dee2e6;
     --Lkz-subtext-color: color-mix(in srgb, var(--bs-body-color), #000 50%);
     --lkz-heading-color: color-mix(in srgb, var(--bs-body-color), #000 25%);
-    display: flex;
-    justify-content: space-evenly;
 }
 
 [data-bs-theme=dark] {
@@ -78,7 +78,7 @@
 }
 
 .container-fluid {
-    display: block;
+    display: flex;
     justify-content: space-between;
     font-weight: 400;
 }
@@ -127,6 +127,7 @@ img {
 }
 
 body {
+    display: flex;
     justify-content: center;
     max-width: 100vw;
     margin: 0;
@@ -152,7 +153,8 @@ body {
 }
 
 h1 {
-    display: block;
+    display: flex;
+    justify-content: center;
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -217,6 +219,7 @@ p{
 
 .final_citation{
     display: flex;
+    justify-content: center;
     color: #00f0ff;
     text-align: center;
     text-shadow:  0 0 7px #00f0ff,
